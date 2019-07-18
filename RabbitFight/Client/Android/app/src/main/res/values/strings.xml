@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RabbitFight</string>
+    <string name="action_settings">Settings</string>
+    <string name="startlogo">startlogo</string>
+    <string name="loginimage">loginimage</string>
+    <string name="loginpasswordtext">Password</string>
+    <string name="loginemailtext">Email</string>
+    <string name="loginbutton">login</string>
+    <string name="Email">Email</string>
+    <string name="loginpassword">Password</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_login">Remember_Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forget_your_password">Forget your password?</string>
+    <string name="passwordruletext">*패스워드는 숫자 및 특수문자,영어 대/소문자 포함 8자 이상입니다.</string>
+    <string name="이메일체크">이메일체크</string>
+    <string name="닉네임체크">닉네임체크</string>
+    <string name="signupiv">signupiv</string>
+    <string name="Passwordcheck">Passwordcheck</string>
+    <string name="Password">Password</string>
+    <!--Ted Permission-->
+    <string name='permission_1'>[설정] > [권한] 에서 권한을 허용할 수 있습니다.</string>
+    <string name="permission_2">사진 및 파일을 저장하기 위하여 접근 권한이 필요합니다.</string>
+</resources>

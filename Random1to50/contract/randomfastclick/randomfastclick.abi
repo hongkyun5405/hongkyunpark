@@ -1,0 +1,239 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "deletedata",
+            "base": "",
+            "fields": [
+                {
+                    "name": "table",
+                    "type": "string"
+                },
+                {
+                    "name": "limit",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "pushrankinfo",
+            "base": "",
+            "fields": [
+                {
+                    "name": "start_time",
+                    "type": "string"
+                },
+                {
+                    "name": "end_time",
+                    "type": "string"
+                },
+                {
+                    "name": "reward",
+                    "type": "asset"
+                },
+                {
+                    "name": "bet_asset",
+                    "type": "asset"
+                },
+                {
+                    "name": "status",
+                    "type": "name"
+                },
+                {
+                    "name": "limit",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "pushresult",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "timeout",
+                    "type": "bool"
+                },
+                {
+                    "name": "forcequit",
+                    "type": "bool"
+                },
+                {
+                    "name": "touchlistcheck",
+                    "type": "bool"
+                },
+                {
+                    "name": "game_score",
+                    "type": "uint64"
+                },
+                {
+                    "name": "play_time",
+                    "type": "float64"
+                },
+                {
+                    "name": "start_time",
+                    "type": "uint64"
+                },
+                {
+                    "name": "end_time",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "rank",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "game_score",
+                    "type": "uint64"
+                },
+                {
+                    "name": "play_time",
+                    "type": "float64"
+                },
+                {
+                    "name": "start_time",
+                    "type": "uint64"
+                },
+                {
+                    "name": "end_time",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "rankgameinfo",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "uint64"
+                },
+                {
+                    "name": "start_time",
+                    "type": "string"
+                },
+                {
+                    "name": "end_time",
+                    "type": "string"
+                },
+                {
+                    "name": "reward",
+                    "type": "asset"
+                },
+                {
+                    "name": "bet_asset",
+                    "type": "asset"
+                },
+                {
+                    "name": "status",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "ranklog",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "uint64"
+                },
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "timeout",
+                    "type": "bool"
+                },
+                {
+                    "name": "forcequit",
+                    "type": "bool"
+                },
+                {
+                    "name": "touchlistcheck",
+                    "type": "bool"
+                },
+                {
+                    "name": "game_score",
+                    "type": "uint64"
+                },
+                {
+                    "name": "play_time",
+                    "type": "float64"
+                },
+                {
+                    "name": "start_time",
+                    "type": "uint64"
+                },
+                {
+                    "name": "end_time",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "rankreward",
+            "base": "",
+            "fields": []
+        }
+    ],
+    "actions": [
+        {
+            "name": "deletedata",
+            "type": "deletedata",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "pushrankinfo",
+            "type": "pushrankinfo",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "pushresult",
+            "type": "pushresult",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "rankreward",
+            "type": "rankreward",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "rank",
+            "type": "rank",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "rankgameinfo",
+            "type": "rankgameinfo",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "ranklog",
+            "type": "ranklog",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}

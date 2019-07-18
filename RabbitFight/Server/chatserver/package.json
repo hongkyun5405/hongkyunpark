@@ -1,0 +1,16 @@
+{
+  "name": "socketio-chat",
+  "version": "1.0.0",
+  "description": "my first socket.io chat app",
+  "dependencies": {
+    "JSON": "^1.0.0",
+    "date-and-time": "^0.6.3",
+    "express": "^4.16.4",
+    "forever": "^0.15.3",
+    "jshint": "^2.10.2",
+    "moment": "^2.24.0",
+    "net-ping": "^1.2.3",
+    "redis": "^2.8.0",
+    "socket.io": "^2.2.0"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "896471089448",
+    "firebase_url": "https://rabbitfight-774bd.firebaseio.com",
+    "project_id": "rabbitfight-774bd",
+    "storage_bucket": "rabbitfight-774bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896471089448:android:63cda364a773a2ed",
+        "android_client_info": {
+          "package_name": "com.example.pado0.rabbitfight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896471089448-su6mdsje6dc8se9r5ktnpg4bkmp4l6si.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pado0.rabbitfight",
+            "certificate_hash": "1ad63a93c16b58150d51e9e57301d0097bdfdc9a"
+          }
+        },
+        {
+          "client_id": "896471089448-sqtt7hnfecus2l7pv3mgj0ugivdjckno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp_Zhi4AsI91ETM_pcnnnMgtfrE-dxXCk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896471089448-sqtt7hnfecus2l7pv3mgj0ugivdjckno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
