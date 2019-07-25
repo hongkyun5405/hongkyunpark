@@ -2,13 +2,7 @@
 
 # 1.Random1To50
 
-MobileTEST: EOSLynx -> Explore-> 우측상단메뉴 -> TestURL -> <http://211.249.62.8:8080/>
-
-BrowserTEST : <http://211.249.62.8:8080/>
-
 시연 영상: <https://youtu.be/sbWBz_twKec>
-
-Contract 주소: <https://bloks.io/account/eosfastclick>
 
 #프로젝트 소개 (진행기간: 8주)  
   
